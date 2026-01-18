@@ -1,0 +1,41 @@
+2026-01-18 15:22:07 - INFO - Starting scan of: C:/_sample/tree_test
+2026-01-18 15:22:07 - INFO - Found folder: smith with 3 files
+2026-01-18 15:22:07 - INFO - Found folder: 54321 with 4 files
+2026-01-18 15:22:07 - INFO - Found folder: jones with 4 files
+2026-01-18 15:22:07 - INFO - Found folder: baker with 4 files
+2026-01-18 15:22:07 - INFO - Found folder: client02 with 4 files
+2026-01-18 15:22:07 - INFO - Scan complete. Found 5 folders with processable files.
+2026-01-18 15:26:15 - INFO - Processing folder: smith (61449e07-c7a0-4c6c-acbe-6107cee4e86a)
+2026-01-18 15:26:15 - INFO - Processing file: document (2).pdf
+2026-01-18 15:26:15 - INFO - Processing file: dummy_statement.pdf
+2026-01-18 15:26:15 - INFO - Processing file: tiaa PDF_Participant-statement-sample2.pdf
+2026-01-18 15:26:15 - INFO - Folder complete: 3 processed, 0 errors, 0 skipped
+2026-01-18 15:26:15 - INFO - Processing folder: 54321 (cda23e84-e832-4c27-bbd2-36140875e6b5)
+2026-01-18 15:26:15 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-01-18 15:26:15 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-01-18 15:26:15 - INFO - Processing file: document (2).pdf
+2026-01-18 15:26:15 - INFO - Processing file: dummy_statement.pdf
+2026-01-18 15:26:15 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-01-18 15:26:15 - INFO - Processing folder: jones (e788e273-9cfa-4a2f-91b5-d77262aa908f)
+2026-01-18 15:26:15 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-01-18 15:26:15 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-01-18 15:26:15 - INFO - Processing file: document (2).pdf
+2026-01-18 15:26:15 - INFO - Processing file: dummy_statement.pdf
+2026-01-18 15:26:15 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-01-18 15:26:15 - INFO - Processing folder: baker (dcb586f2-c6b6-487f-bae7-eb16e6baf6c9)
+2026-01-18 15:26:15 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf
+2026-01-18 15:26:15 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-copy.pdf
+2026-01-18 15:26:15 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf
+2026-01-18 15:26:15 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003.pdf
+2026-01-18 15:26:15 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-01-18 15:26:15 - INFO - Processing folder: client02 (31f1df5c-49b5-4959-832b-ee6749ff7b28)
+2026-01-18 15:26:15 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-01-18 15:26:15 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-01-18 15:26:15 - INFO - Processing file: document (2).pdf
+2026-01-18 15:26:15 - INFO - Processing file: dummy_statement.pdf
+2026-01-18 15:26:15 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-01-18 15:26:15 - INFO - JSON saved to: output\processing_results.json
+2026-01-18 15:26:15 - INFO - CSV saved to: output\processing_results.csv
+2026-01-18 15:26:15 - INFO - Report generated: JSON=output\processing_results.json, CSV=output\processing_results.csv
+2026-01-18 15:27:01 - INFO - JSON saved to: output\test001.json
+2026-01-18 15:27:18 - INFO - CSV saved to: output\test001.csv

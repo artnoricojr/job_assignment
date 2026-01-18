@@ -1,0 +1,427 @@
+{
+  "generated_at": "2026-01-18T15:26:15.294530",
+  "version": "1.0",
+  "data": {
+    "report_generated": "2026-01-18T15:26:15.294512",
+    "scan_summary": {
+      "total_folders_found": 5,
+      "total_files_found": 19
+    },
+    "processing_summary": {
+      "total_folders_processed": 5,
+      "total_files_processed": 19,
+      "total_errors": 0,
+      "total_skipped": 0,
+      "success_rate": 100.0
+    },
+    "detailed_results": [
+      {
+        "folder_guid": "61449e07-c7a0-4c6c-acbe-6107cee4e86a",
+        "folder_path": "C:\\_sample\\tree_test\\20300123456\\source\\smith",
+        "folder_name": "smith",
+        "total_files": 3,
+        "processed_files": 3,
+        "error_files": 0,
+        "skipped_files": 0,
+        "file_results": [
+          {
+            "filename": "document (2).pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\document (2).pdf",
+            "folder_guid": "61449e07-c7a0-4c6c-acbe-6107cee4e86a",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 420098,
+            "processed_at": "2026-01-18T15:26:15.290315",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.290227",
+              "created": "2026-01-17T22:35:51.725887",
+              "modified": "2025-10-11T23:57:57.614534",
+              "accessed": "2026-01-17T22:35:51.732715",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "dummy_statement.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\dummy_statement.pdf",
+            "folder_guid": "61449e07-c7a0-4c6c-acbe-6107cee4e86a",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 183623,
+            "processed_at": "2026-01-18T15:26:15.290541",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.290469",
+              "created": "2026-01-17T22:35:51.734761",
+              "modified": "2025-10-11T23:57:32.221820",
+              "accessed": "2026-01-17T22:35:51.741715",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "tiaa PDF_Participant-statement-sample2.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\tiaa PDF_Participant-statement-sample2.pdf",
+            "folder_guid": "61449e07-c7a0-4c6c-acbe-6107cee4e86a",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 1014752,
+            "processed_at": "2026-01-18T15:26:15.290747",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.290681",
+              "created": "2026-01-17T22:35:51.744761",
+              "modified": "2025-09-23T07:47:53.372530",
+              "accessed": "2026-01-17T22:35:51.753885",
+              "page_count": null,
+              "pdf_version": null
+            }
+          }
+        ],
+        "started_at": "2026-01-18T15:26:15.290760",
+        "completed_at": "2026-01-18T15:26:15.290752"
+      },
+      {
+        "folder_guid": "cda23e84-e832-4c27-bbd2-36140875e6b5",
+        "folder_path": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321",
+        "folder_name": "54321",
+        "total_files": 4,
+        "processed_files": 4,
+        "error_files": 0,
+        "skipped_files": 0,
+        "file_results": [
+          {
+            "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "folder_guid": "cda23e84-e832-4c27-bbd2-36140875e6b5",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 265266,
+            "processed_at": "2026-01-18T15:26:15.291086",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.291019",
+              "created": "2026-01-17T22:43:24.783922",
+              "modified": "2025-10-12T00:00:00.689257",
+              "accessed": "2026-01-17T22:43:24.794918",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "Commerce_statement_sample1.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\Commerce_statement_sample1.pdf",
+            "folder_guid": "cda23e84-e832-4c27-bbd2-36140875e6b5",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 55071,
+            "processed_at": "2026-01-18T15:26:15.291281",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.291215",
+              "created": "2026-01-17T22:43:24.796702",
+              "modified": "2025-10-11T23:58:26.644558",
+              "accessed": "2026-01-17T22:43:24.806278",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "document (2).pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\document (2).pdf",
+            "folder_guid": "cda23e84-e832-4c27-bbd2-36140875e6b5",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 420098,
+            "processed_at": "2026-01-18T15:26:15.291472",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.291409",
+              "created": "2026-01-17T22:43:24.807287",
+              "modified": "2025-10-11T23:57:57.614534",
+              "accessed": "2026-01-17T22:43:24.822333",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "dummy_statement.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\dummy_statement.pdf",
+            "folder_guid": "cda23e84-e832-4c27-bbd2-36140875e6b5",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 183623,
+            "processed_at": "2026-01-18T15:26:15.291659",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.291597",
+              "created": "2026-01-17T22:43:24.824286",
+              "modified": "2025-10-11T23:57:32.221820",
+              "accessed": "2026-01-17T22:43:24.833248",
+              "page_count": null,
+              "pdf_version": null
+            }
+          }
+        ],
+        "started_at": "2026-01-18T15:26:15.291669",
+        "completed_at": "2026-01-18T15:26:15.291664"
+      },
+      {
+        "folder_guid": "e788e273-9cfa-4a2f-91b5-d77262aa908f",
+        "folder_path": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones",
+        "folder_name": "jones",
+        "total_files": 4,
+        "processed_files": 4,
+        "error_files": 0,
+        "skipped_files": 0,
+        "file_results": [
+          {
+            "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "folder_guid": "e788e273-9cfa-4a2f-91b5-d77262aa908f",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 265266,
+            "processed_at": "2026-01-18T15:26:15.291988",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.291913",
+              "created": "2026-01-17T22:36:51.810550",
+              "modified": "2025-10-12T00:00:00.689257",
+              "accessed": "2026-01-17T22:43:24.791907",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "Commerce_statement_sample1.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\Commerce_statement_sample1.pdf",
+            "folder_guid": "e788e273-9cfa-4a2f-91b5-d77262aa908f",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 55071,
+            "processed_at": "2026-01-18T15:26:15.292186",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.292115",
+              "created": "2026-01-17T22:36:51.822558",
+              "modified": "2025-10-11T23:58:26.644558",
+              "accessed": "2026-01-17T22:43:24.803073",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "document (2).pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\document (2).pdf",
+            "folder_guid": "e788e273-9cfa-4a2f-91b5-d77262aa908f",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 420098,
+            "processed_at": "2026-01-18T15:26:15.292374",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.292313",
+              "created": "2026-01-17T22:36:51.838708",
+              "modified": "2025-10-11T23:57:57.614534",
+              "accessed": "2026-01-17T22:43:24.819299",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "dummy_statement.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\dummy_statement.pdf",
+            "folder_guid": "e788e273-9cfa-4a2f-91b5-d77262aa908f",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 183623,
+            "processed_at": "2026-01-18T15:26:15.292561",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.292501",
+              "created": "2026-01-17T22:36:51.796558",
+              "modified": "2025-10-11T23:57:32.221820",
+              "accessed": "2026-01-17T22:43:24.830245",
+              "page_count": null,
+              "pdf_version": null
+            }
+          }
+        ],
+        "started_at": "2026-01-18T15:26:15.292567",
+        "completed_at": "2026-01-18T15:26:15.292564"
+      },
+      {
+        "folder_guid": "dcb586f2-c6b6-487f-bae7-eb16e6baf6c9",
+        "folder_path": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker",
+        "folder_name": "baker",
+        "total_files": 4,
+        "processed_files": 4,
+        "error_files": 0,
+        "skipped_files": 0,
+        "file_results": [
+          {
+            "filename": "2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf",
+            "folder_guid": "dcb586f2-c6b6-487f-bae7-eb16e6baf6c9",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 992732,
+            "processed_at": "2026-01-18T15:26:15.292868",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.292803",
+              "created": "2026-01-17T22:37:27.761978",
+              "modified": "2025-05-16T20:38:14.379310",
+              "accessed": "2026-01-17T22:37:27.765145",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "2025_05_16_1035-form-Handwriting-sample-003-copy.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-copy.pdf",
+            "folder_guid": "dcb586f2-c6b6-487f-bae7-eb16e6baf6c9",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 10025131,
+            "processed_at": "2026-01-18T15:26:15.293073",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.292994",
+              "created": "2026-01-17T22:37:27.773904",
+              "modified": "2025-05-16T20:32:51.560553",
+              "accessed": "2026-01-17T22:37:27.778973",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf",
+            "folder_guid": "dcb586f2-c6b6-487f-bae7-eb16e6baf6c9",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 8441953,
+            "processed_at": "2026-01-18T15:26:15.293299",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.293208",
+              "created": "2026-01-17T22:37:27.735983",
+              "modified": "2025-05-18T09:48:47.886810",
+              "accessed": "2026-01-17T22:37:27.739964",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "2025_05_16_1035-form-Handwriting-sample-003.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003.pdf",
+            "folder_guid": "dcb586f2-c6b6-487f-bae7-eb16e6baf6c9",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 10019982,
+            "processed_at": "2026-01-18T15:26:15.293511",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.293448",
+              "created": "2026-01-17T22:37:27.748020",
+              "modified": "2025-05-16T18:47:25",
+              "accessed": "2026-01-17T22:37:27.752976",
+              "page_count": null,
+              "pdf_version": null
+            }
+          }
+        ],
+        "started_at": "2026-01-18T15:26:15.293518",
+        "completed_at": "2026-01-18T15:26:15.293514"
+      },
+      {
+        "folder_guid": "31f1df5c-49b5-4959-832b-ee6749ff7b28",
+        "folder_path": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02",
+        "folder_name": "client02",
+        "total_files": 4,
+        "processed_files": 4,
+        "error_files": 0,
+        "skipped_files": 0,
+        "file_results": [
+          {
+            "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
+            "folder_guid": "31f1df5c-49b5-4959-832b-ee6749ff7b28",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 265266,
+            "processed_at": "2026-01-18T15:26:15.293804",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.293741",
+              "created": "2026-01-17T22:48:59.115196",
+              "modified": "2025-10-12T00:00:00.689257",
+              "accessed": "2026-01-17T22:48:59.121202",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "Commerce_statement_sample1.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\Commerce_statement_sample1.pdf",
+            "folder_guid": "31f1df5c-49b5-4959-832b-ee6749ff7b28",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 55071,
+            "processed_at": "2026-01-18T15:26:15.293996",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.293923",
+              "created": "2026-01-17T22:48:59.123244",
+              "modified": "2025-10-11T23:58:26.644558",
+              "accessed": "2026-01-17T22:48:59.129195",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "document (2).pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\document (2).pdf",
+            "folder_guid": "31f1df5c-49b5-4959-832b-ee6749ff7b28",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 420098,
+            "processed_at": "2026-01-18T15:26:15.294183",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.294120",
+              "created": "2026-01-17T22:48:59.131235",
+              "modified": "2025-10-11T23:57:57.614534",
+              "accessed": "2026-01-17T22:48:59.138963",
+              "page_count": null,
+              "pdf_version": null
+            }
+          },
+          {
+            "filename": "dummy_statement.pdf",
+            "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\dummy_statement.pdf",
+            "folder_guid": "31f1df5c-49b5-4959-832b-ee6749ff7b28",
+            "status": "completed",
+            "file_type": "pdf",
+            "file_size": 183623,
+            "processed_at": "2026-01-18T15:26:15.294393",
+            "error_message": null,
+            "metadata": {
+              "extracted_at": "2026-01-18T15:26:15.294327",
+              "created": "2026-01-17T22:48:59.140968",
+              "modified": "2025-10-11T23:57:32.221820",
+              "accessed": "2026-01-17T22:48:59.147218",
+              "page_count": null,
+              "pdf_version": null
+            }
+          }
+        ],
+        "started_at": "2026-01-18T15:26:15.294401",
+        "completed_at": "2026-01-18T15:26:15.294397"
+      }
+    ]
+  }
+}
