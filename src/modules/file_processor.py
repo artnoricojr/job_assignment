@@ -4,6 +4,7 @@ Processes files within identified folders (primarily PDFs).
 """
 
 import os
+import uuid
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, field
@@ -26,6 +27,7 @@ class ProcessingStatus(Enum):
 @dataclass
 class FileResult:
     """Result of processing a single file."""
+    file_guid: str
     filename: str
     filepath: str
     folder_guid: str
@@ -39,6 +41,7 @@ class FileResult:
     def to_dict(self) -> Dict:
         """Convert to dictionary for JSON serialization."""
         return {
+            "file_guid": self.file_guid,
             "filename": self.filename,
             "filepath": self.filepath,
             "folder_guid": self.folder_guid,
@@ -145,6 +148,7 @@ class FileProcessor:
                 self.tracker.log_error(f"Exception processing file: {filename}", exception=e)
                 error_count += 1
                 file_results.append(FileResult(
+                    file_guid=str(uuid.uuid4()),
                     filename=filename,
                     filepath=filepath,
                     folder_guid=folder.guid,
@@ -199,6 +203,7 @@ class FileProcessor:
             metadata = self._extract_metadata(filepath, file_type)
 
             return FileResult(
+                file_guid=str(uuid.uuid4()),
                 filename=filename,
                 filepath=filepath,
                 folder_guid=folder_guid,
@@ -211,6 +216,7 @@ class FileProcessor:
         except Exception as e:
             self.tracker.log_error(f"Error processing {filename}: {str(e)}", exception=e)
             return FileResult(
+                file_guid=str(uuid.uuid4()),
                 filename=filename,
                 filepath=filepath,
                 folder_guid=folder_guid,

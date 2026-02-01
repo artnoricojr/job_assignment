@@ -116,6 +116,7 @@ class OutputHandler:
                 # Add folder entry even if no files
                 rows.append({
                     **folder_info,
+                    "file_guid": "",
                     "filename": "",
                     "filepath": "",
                     "status": "",
@@ -128,6 +129,7 @@ class OutputHandler:
                 for file_result in file_results:
                     rows.append({
                         **folder_info,
+                        "file_guid": file_result.get("file_guid", ""),
                         "filename": file_result.get("filename", ""),
                         "filepath": file_result.get("filepath", ""),
                         "status": file_result.get("status", ""),

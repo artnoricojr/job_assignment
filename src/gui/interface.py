@@ -299,10 +299,17 @@ class FileProcessorGUI:
             )
             if filepath:
                 summary = self.processor.get_summary()
+                # Create output handler for user's chosen directory
+                from pathlib import Path
+                export_path = Path(filepath)
+                export_handler = OutputHandler(
+                    output_dir=str(export_path.parent),
+                    tracker=self.tracker
+                )
                 if filepath.endswith('.csv'):
-                    self.output_handler.save_csv(summary, filepath.split('/')[-1])
+                    export_handler.save_csv(summary, export_path.name)
                 else:
-                    self.output_handler.save_json(summary, filepath.split('/')[-1])
+                    export_handler.save_json(summary, export_path.name)
                 self._log(f"Exported to: {filepath}")
                 messagebox.showinfo("Export", f"Results exported to:\n{filepath}")
         except Exception as e:
