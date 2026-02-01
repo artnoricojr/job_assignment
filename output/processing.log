@@ -81,3 +81,44 @@
 2026-02-01 10:23:38 - INFO - JSON saved to: output\processing-2026-02-01-test-1022.json
 2026-02-01 10:25:11 - INFO - CSV saved to: output\tesr.csv
 2026-02-01 10:26:58 - INFO - JSON saved to: output\test-out-put-2026-02-01-1026.json
+2026-02-01 12:07:18 - INFO - Starting scan of: C:/_sample/tree_test
+2026-02-01 12:07:18 - INFO - Found folder: smith with 3 files
+2026-02-01 12:07:18 - INFO - Found folder: 54321 with 4 files
+2026-02-01 12:07:18 - INFO - Found folder: jones with 4 files
+2026-02-01 12:07:18 - INFO - Found folder: baker with 4 files
+2026-02-01 12:07:18 - INFO - Found folder: client02 with 4 files
+2026-02-01 12:07:18 - INFO - Scan complete. Found 5 folders with processable files.
+2026-02-01 12:07:25 - INFO - Processing folder: smith (801aa850-79c4-4eba-8c65-dd74d8ac9b33)
+2026-02-01 12:07:25 - INFO - Processing file: document (2).pdf
+2026-02-01 12:07:25 - INFO - Processing file: dummy_statement.pdf
+2026-02-01 12:07:25 - INFO - Processing file: tiaa PDF_Participant-statement-sample2.pdf
+2026-02-01 12:07:25 - INFO - Folder complete: 3 processed, 0 errors, 0 skipped
+2026-02-01 12:07:25 - INFO - Processing folder: 54321 (87d8ddca-f89f-41eb-ab59-143996c5b297)
+2026-02-01 12:07:25 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-02-01 12:07:25 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-02-01 12:07:25 - INFO - Processing file: document (2).pdf
+2026-02-01 12:07:25 - INFO - Processing file: dummy_statement.pdf
+2026-02-01 12:07:25 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-02-01 12:07:25 - INFO - Processing folder: jones (5a86e55a-7666-4e35-8fb3-2b78b4f6aae9)
+2026-02-01 12:07:25 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-02-01 12:07:25 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-02-01 12:07:25 - INFO - Processing file: document (2).pdf
+2026-02-01 12:07:25 - INFO - Processing file: dummy_statement.pdf
+2026-02-01 12:07:25 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-02-01 12:07:25 - INFO - Processing folder: baker (49db09ef-41cb-45c8-a628-6d3d1673eb19)
+2026-02-01 12:07:25 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf
+2026-02-01 12:07:25 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-copy.pdf
+2026-02-01 12:07:25 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf
+2026-02-01 12:07:25 - INFO - Processing file: 2025_05_16_1035-form-Handwriting-sample-003.pdf
+2026-02-01 12:07:25 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-02-01 12:07:25 - INFO - Processing folder: client02 (7a241453-7256-4c69-861b-dc6427644bde)
+2026-02-01 12:07:25 - INFO - Processing file: 08_LP1_Financial-Document-Samples_01.28.19.pdf
+2026-02-01 12:07:25 - INFO - Processing file: Commerce_statement_sample1.pdf
+2026-02-01 12:07:25 - INFO - Processing file: document (2).pdf
+2026-02-01 12:07:25 - INFO - Processing file: dummy_statement.pdf
+2026-02-01 12:07:25 - INFO - Folder complete: 4 processed, 0 errors, 0 skipped
+2026-02-01 12:07:25 - INFO - JSON saved to: output\processing_results.json
+2026-02-01 12:07:25 - INFO - CSV saved to: output\processing_results.csv
+2026-02-01 12:07:25 - INFO - Report generated: JSON=output\processing_results.json, CSV=output\processing_results.csv
+2026-02-01 12:07:59 - INFO - JSON saved to: C:\_sample\scan-results-20260201-1207.json
+2026-02-01 12:08:22 - INFO - CSV saved to: C:\_sample\scan-results-20260201-1207.csv

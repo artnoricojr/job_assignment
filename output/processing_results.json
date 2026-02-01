@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-02-01T10:22:34.838866",
+  "generated_at": "2026-02-01T12:07:25.319617",
   "version": "1.0",
   "data": {
-    "report_generated": "2026-02-01T10:22:34.838851",
+    "report_generated": "2026-02-01T12:07:25.319602",
     "scan_summary": {
       "total_folders_found": 5,
       "total_files_found": 19
@@ -16,7 +16,7 @@
     },
     "detailed_results": [
       {
-        "folder_guid": "5f309780-95aa-44dc-a286-f03fbb07e9f1",
+        "folder_guid": "801aa850-79c4-4eba-8c65-dd74d8ac9b33",
         "folder_path": "C:\\_sample\\tree_test\\20300123456\\source\\smith",
         "folder_name": "smith",
         "total_files": 3,
@@ -25,17 +25,17 @@
         "skipped_files": 0,
         "file_results": [
           {
-            "file_guid": "2bf5cbd4-d786-4694-b87d-cff442e8db9e",
+            "file_guid": "5ef04505-4649-4714-b3e2-254c9a1f9d2d",
             "filename": "document (2).pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\document (2).pdf",
-            "folder_guid": "5f309780-95aa-44dc-a286-f03fbb07e9f1",
+            "folder_guid": "801aa850-79c4-4eba-8c65-dd74d8ac9b33",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 420098,
-            "processed_at": "2026-02-01T10:22:34.834352",
+            "processed_at": "2026-02-01T12:07:25.315461",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.834249",
+              "extracted_at": "2026-02-01T12:07:25.315362",
               "created": "2026-01-17T22:35:51.725887",
               "modified": "2025-10-11T23:57:57.614534",
               "accessed": "2026-01-18T15:58:30.300420",
@@ -44,17 +44,17 @@
             }
           },
           {
-            "file_guid": "a462ed9c-e9cd-4e5f-a4d9-25a36a36d80c",
+            "file_guid": "9d6c340d-69d9-4b1f-b013-ab20d0b7801d",
             "filename": "dummy_statement.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\dummy_statement.pdf",
-            "folder_guid": "5f309780-95aa-44dc-a286-f03fbb07e9f1",
+            "folder_guid": "801aa850-79c4-4eba-8c65-dd74d8ac9b33",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 183623,
-            "processed_at": "2026-02-01T10:22:34.834651",
+            "processed_at": "2026-02-01T12:07:25.315686",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.834542",
+              "extracted_at": "2026-02-01T12:07:25.315609",
               "created": "2026-01-17T22:35:51.734761",
               "modified": "2025-10-11T23:57:32.221820",
               "accessed": "2026-01-18T15:58:30.328377",
@@ -63,17 +63,17 @@
             }
           },
           {
-            "file_guid": "28eabc1e-0fa8-4ddd-b165-2f7412e4b104",
+            "file_guid": "3035cb94-b0f0-4aa6-a4c6-8149013f90da",
             "filename": "tiaa PDF_Participant-statement-sample2.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123456\\source\\smith\\tiaa PDF_Participant-statement-sample2.pdf",
-            "folder_guid": "5f309780-95aa-44dc-a286-f03fbb07e9f1",
+            "folder_guid": "801aa850-79c4-4eba-8c65-dd74d8ac9b33",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 1014752,
-            "processed_at": "2026-02-01T10:22:34.834951",
+            "processed_at": "2026-02-01T12:07:25.315908",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.834867",
+              "extracted_at": "2026-02-01T12:07:25.315834",
               "created": "2026-01-17T22:35:51.744761",
               "modified": "2025-09-23T07:47:53.372530",
               "accessed": "2026-01-18T15:58:30.350376",
@@ -82,11 +82,11 @@
             }
           }
         ],
-        "started_at": "2026-02-01T10:22:34.834961",
-        "completed_at": "2026-02-01T10:22:34.834955"
+        "started_at": "2026-02-01T12:07:25.315918",
+        "completed_at": "2026-02-01T12:07:25.315912"
       },
       {
-        "folder_guid": "3d1f2d30-09fe-41cd-b056-62e229e45539",
+        "folder_guid": "87d8ddca-f89f-41eb-ab59-143996c5b297",
         "folder_path": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321",
         "folder_name": "54321",
         "total_files": 4,
@@ -95,17 +95,17 @@
         "skipped_files": 0,
         "file_results": [
           {
-            "file_guid": "bda73427-c26b-459a-8bbf-a2e7b9423bc4",
+            "file_guid": "a80a5019-426b-49b2-8c79-fb9ec9f85edb",
             "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
-            "folder_guid": "3d1f2d30-09fe-41cd-b056-62e229e45539",
+            "folder_guid": "87d8ddca-f89f-41eb-ab59-143996c5b297",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 265266,
-            "processed_at": "2026-02-01T10:22:34.835347",
+            "processed_at": "2026-02-01T12:07:25.316233",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.835274",
+              "extracted_at": "2026-02-01T12:07:25.316161",
               "created": "2026-01-17T22:43:24.783922",
               "modified": "2025-10-12T00:00:00.689257",
               "accessed": "2026-01-18T15:58:30.413376",
@@ -114,17 +114,17 @@
             }
           },
           {
-            "file_guid": "b339fd1c-41ae-4a0b-bc1b-8e6ea95eefaf",
+            "file_guid": "cc822d20-b811-45c3-a77b-15b49047154f",
             "filename": "Commerce_statement_sample1.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\Commerce_statement_sample1.pdf",
-            "folder_guid": "3d1f2d30-09fe-41cd-b056-62e229e45539",
+            "folder_guid": "87d8ddca-f89f-41eb-ab59-143996c5b297",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 55071,
-            "processed_at": "2026-02-01T10:22:34.835544",
+            "processed_at": "2026-02-01T12:07:25.316425",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.835472",
+              "extracted_at": "2026-02-01T12:07:25.316355",
               "created": "2026-01-17T22:43:24.796702",
               "modified": "2025-10-11T23:58:26.644558",
               "accessed": "2026-01-18T15:58:30.433406",
@@ -133,17 +133,17 @@
             }
           },
           {
-            "file_guid": "42714060-6778-49a7-903b-aa36fc16f420",
+            "file_guid": "c3648cc7-9f12-41cf-9cbf-03f2686cb465",
             "filename": "document (2).pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\document (2).pdf",
-            "folder_guid": "3d1f2d30-09fe-41cd-b056-62e229e45539",
+            "folder_guid": "87d8ddca-f89f-41eb-ab59-143996c5b297",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 420098,
-            "processed_at": "2026-02-01T10:22:34.835779",
+            "processed_at": "2026-02-01T12:07:25.316611",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.835709",
+              "extracted_at": "2026-02-01T12:07:25.316544",
               "created": "2026-01-17T22:43:24.807287",
               "modified": "2025-10-11T23:57:57.614534",
               "accessed": "2026-01-18T15:58:30.453376",
@@ -152,17 +152,17 @@
             }
           },
           {
-            "file_guid": "40c23647-dc18-4de2-8753-9342fbb02905",
+            "file_guid": "3320c6db-71e3-48f0-bc82-a283034deda9",
             "filename": "dummy_statement.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\54321\\dummy_statement.pdf",
-            "folder_guid": "3d1f2d30-09fe-41cd-b056-62e229e45539",
+            "folder_guid": "87d8ddca-f89f-41eb-ab59-143996c5b297",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 183623,
-            "processed_at": "2026-02-01T10:22:34.835971",
+            "processed_at": "2026-02-01T12:07:25.316811",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.835902",
+              "extracted_at": "2026-02-01T12:07:25.316742",
               "created": "2026-01-17T22:43:24.824286",
               "modified": "2025-10-11T23:57:32.221820",
               "accessed": "2026-01-18T15:58:30.474419",
@@ -171,11 +171,11 @@
             }
           }
         ],
-        "started_at": "2026-02-01T10:22:34.835981",
-        "completed_at": "2026-02-01T10:22:34.835976"
+        "started_at": "2026-02-01T12:07:25.316820",
+        "completed_at": "2026-02-01T12:07:25.316815"
       },
       {
-        "folder_guid": "940fa4e3-8dd1-48e0-8d0f-8792c4f2f11c",
+        "folder_guid": "5a86e55a-7666-4e35-8fb3-2b78b4f6aae9",
         "folder_path": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones",
         "folder_name": "jones",
         "total_files": 4,
@@ -184,17 +184,17 @@
         "skipped_files": 0,
         "file_results": [
           {
-            "file_guid": "fd274482-d167-4da1-90d2-5ae18f4c1272",
+            "file_guid": "a5299c0c-b78b-4684-aae5-40375c6e6c2d",
             "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
-            "folder_guid": "940fa4e3-8dd1-48e0-8d0f-8792c4f2f11c",
+            "folder_guid": "5a86e55a-7666-4e35-8fb3-2b78b4f6aae9",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 265266,
-            "processed_at": "2026-02-01T10:22:34.836279",
+            "processed_at": "2026-02-01T12:07:25.317155",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.836207",
+              "extracted_at": "2026-02-01T12:07:25.317083",
               "created": "2026-01-17T22:36:51.810550",
               "modified": "2025-10-12T00:00:00.689257",
               "accessed": "2026-01-18T15:58:30.511378",
@@ -203,17 +203,17 @@
             }
           },
           {
-            "file_guid": "9aabe603-136a-4030-b97b-27cdb2059bc9",
+            "file_guid": "703fbab1-36f0-4835-a12c-fb594dcafe6c",
             "filename": "Commerce_statement_sample1.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\Commerce_statement_sample1.pdf",
-            "folder_guid": "940fa4e3-8dd1-48e0-8d0f-8792c4f2f11c",
+            "folder_guid": "5a86e55a-7666-4e35-8fb3-2b78b4f6aae9",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 55071,
-            "processed_at": "2026-02-01T10:22:34.836468",
+            "processed_at": "2026-02-01T12:07:25.317349",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.836400",
+              "extracted_at": "2026-02-01T12:07:25.317280",
               "created": "2026-01-17T22:36:51.822558",
               "modified": "2025-10-11T23:58:26.644558",
               "accessed": "2026-01-18T15:58:30.535378",
@@ -222,17 +222,17 @@
             }
           },
           {
-            "file_guid": "a0c14958-827a-47e0-a818-b9190000f6fc",
+            "file_guid": "328d37af-8edc-4a06-a026-8cdafed5e502",
             "filename": "document (2).pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\document (2).pdf",
-            "folder_guid": "940fa4e3-8dd1-48e0-8d0f-8792c4f2f11c",
+            "folder_guid": "5a86e55a-7666-4e35-8fb3-2b78b4f6aae9",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 420098,
-            "processed_at": "2026-02-01T10:22:34.836666",
+            "processed_at": "2026-02-01T12:07:25.317534",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.836599",
+              "extracted_at": "2026-02-01T12:07:25.317468",
               "created": "2026-01-17T22:36:51.838708",
               "modified": "2025-10-11T23:57:57.614534",
               "accessed": "2026-01-18T15:58:30.558376",
@@ -241,17 +241,17 @@
             }
           },
           {
-            "file_guid": "0fd6bb4b-1a7d-4153-b132-72a4547039e3",
+            "file_guid": "e89ceaa4-f1d9-413a-bae7-46ce4f0d4bc9",
             "filename": "dummy_statement.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123457\\pdfs\\jones\\dummy_statement.pdf",
-            "folder_guid": "940fa4e3-8dd1-48e0-8d0f-8792c4f2f11c",
+            "folder_guid": "5a86e55a-7666-4e35-8fb3-2b78b4f6aae9",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 183623,
-            "processed_at": "2026-02-01T10:22:34.836882",
+            "processed_at": "2026-02-01T12:07:25.317717",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.836813",
+              "extracted_at": "2026-02-01T12:07:25.317651",
               "created": "2026-01-17T22:36:51.796558",
               "modified": "2025-10-11T23:57:32.221820",
               "accessed": "2026-01-18T15:58:30.579378",
@@ -260,11 +260,11 @@
             }
           }
         ],
-        "started_at": "2026-02-01T10:22:34.836889",
-        "completed_at": "2026-02-01T10:22:34.836885"
+        "started_at": "2026-02-01T12:07:25.317724",
+        "completed_at": "2026-02-01T12:07:25.317720"
       },
       {
-        "folder_guid": "5cbe0ec5-93ab-495d-9c12-cb3e1d95832b",
+        "folder_guid": "49db09ef-41cb-45c8-a628-6d3d1673eb19",
         "folder_path": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker",
         "folder_name": "baker",
         "total_files": 4,
@@ -273,17 +273,17 @@
         "skipped_files": 0,
         "file_results": [
           {
-            "file_guid": "fb4c48cf-78f9-4d0d-9e1d-f25c668218ac",
+            "file_guid": "1b15b486-e806-437c-a258-562618f2baa1",
             "filename": "2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-compressed-01.pdf",
-            "folder_guid": "5cbe0ec5-93ab-495d-9c12-cb3e1d95832b",
+            "folder_guid": "49db09ef-41cb-45c8-a628-6d3d1673eb19",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 992732,
-            "processed_at": "2026-02-01T10:22:34.837184",
+            "processed_at": "2026-02-01T12:07:25.318015",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.837112",
+              "extracted_at": "2026-02-01T12:07:25.317945",
               "created": "2026-01-17T22:37:27.761978",
               "modified": "2025-05-16T20:38:14.379310",
               "accessed": "2026-01-17T22:37:27.765145",
@@ -292,17 +292,17 @@
             }
           },
           {
-            "file_guid": "0082fd97-7cb0-40a5-b565-f8754dc67720",
+            "file_guid": "28ef26d6-ff6b-4d2c-8485-5bfc85446143",
             "filename": "2025_05_16_1035-form-Handwriting-sample-003-copy.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-copy.pdf",
-            "folder_guid": "5cbe0ec5-93ab-495d-9c12-cb3e1d95832b",
+            "folder_guid": "49db09ef-41cb-45c8-a628-6d3d1673eb19",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 10025131,
-            "processed_at": "2026-02-01T10:22:34.837383",
+            "processed_at": "2026-02-01T12:07:25.318209",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.837311",
+              "extracted_at": "2026-02-01T12:07:25.318141",
               "created": "2026-01-17T22:37:27.773904",
               "modified": "2025-05-16T20:32:51.560553",
               "accessed": "2026-01-17T22:37:27.778973",
@@ -311,17 +311,17 @@
             }
           },
           {
-            "file_guid": "eca17489-9812-46b8-9186-dcc965b1f94b",
+            "file_guid": "94cfa79f-609a-4c0e-997d-4e20b4c28f8a",
             "filename": "2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003-IMAGE-Only.pdf",
-            "folder_guid": "5cbe0ec5-93ab-495d-9c12-cb3e1d95832b",
+            "folder_guid": "49db09ef-41cb-45c8-a628-6d3d1673eb19",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 8441953,
-            "processed_at": "2026-02-01T10:22:34.837613",
+            "processed_at": "2026-02-01T12:07:25.318412",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.837534",
+              "extracted_at": "2026-02-01T12:07:25.318341",
               "created": "2026-01-17T22:37:27.735983",
               "modified": "2025-05-18T09:48:47.886810",
               "accessed": "2026-01-17T22:37:27.739964",
@@ -330,17 +330,17 @@
             }
           },
           {
-            "file_guid": "705d60ba-342a-4afb-bd47-545e24dd356d",
+            "file_guid": "f1960971-3679-4366-ba84-7910efb5b15b",
             "filename": "2025_05_16_1035-form-Handwriting-sample-003.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\baker\\2025_05_16_1035-form-Handwriting-sample-003.pdf",
-            "folder_guid": "5cbe0ec5-93ab-495d-9c12-cb3e1d95832b",
+            "folder_guid": "49db09ef-41cb-45c8-a628-6d3d1673eb19",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 10019982,
-            "processed_at": "2026-02-01T10:22:34.837836",
+            "processed_at": "2026-02-01T12:07:25.318601",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.837767",
+              "extracted_at": "2026-02-01T12:07:25.318533",
               "created": "2026-01-17T22:37:27.748020",
               "modified": "2025-05-16T18:47:25",
               "accessed": "2026-01-17T22:37:27.752976",
@@ -349,11 +349,11 @@
             }
           }
         ],
-        "started_at": "2026-02-01T10:22:34.837843",
-        "completed_at": "2026-02-01T10:22:34.837839"
+        "started_at": "2026-02-01T12:07:25.318607",
+        "completed_at": "2026-02-01T12:07:25.318604"
       },
       {
-        "folder_guid": "958dc084-b0e6-4ce8-9e87-27610430dfb2",
+        "folder_guid": "7a241453-7256-4c69-861b-dc6427644bde",
         "folder_path": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02",
         "folder_name": "client02",
         "total_files": 4,
@@ -362,17 +362,17 @@
         "skipped_files": 0,
         "file_results": [
           {
-            "file_guid": "49b8d476-5fe2-4408-bab4-48bec9fed65b",
+            "file_guid": "59fce7c7-7168-4670-ae42-be3fd79ab4c6",
             "filename": "08_LP1_Financial-Document-Samples_01.28.19.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\08_LP1_Financial-Document-Samples_01.28.19.pdf",
-            "folder_guid": "958dc084-b0e6-4ce8-9e87-27610430dfb2",
+            "folder_guid": "7a241453-7256-4c69-861b-dc6427644bde",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 265266,
-            "processed_at": "2026-02-01T10:22:34.838134",
+            "processed_at": "2026-02-01T12:07:25.318907",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.838064",
+              "extracted_at": "2026-02-01T12:07:25.318837",
               "created": "2026-01-17T22:48:59.115196",
               "modified": "2025-10-12T00:00:00.689257",
               "accessed": "2026-01-18T15:58:30.780379",
@@ -381,17 +381,17 @@
             }
           },
           {
-            "file_guid": "5176bddd-c803-4d3b-af9d-880a54c1ad11",
+            "file_guid": "a7b0f811-4974-404e-9110-01b3a9b51224",
             "filename": "Commerce_statement_sample1.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\Commerce_statement_sample1.pdf",
-            "folder_guid": "958dc084-b0e6-4ce8-9e87-27610430dfb2",
+            "folder_guid": "7a241453-7256-4c69-861b-dc6427644bde",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 55071,
-            "processed_at": "2026-02-01T10:22:34.838322",
+            "processed_at": "2026-02-01T12:07:25.319093",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.838254",
+              "extracted_at": "2026-02-01T12:07:25.319025",
               "created": "2026-01-17T22:48:59.123244",
               "modified": "2025-10-11T23:58:26.644558",
               "accessed": "2026-01-18T15:58:30.809380",
@@ -400,17 +400,17 @@
             }
           },
           {
-            "file_guid": "f47b46de-ad86-4bfe-b928-34b3e3195973",
+            "file_guid": "520ba726-b803-4349-b63b-69a66cfa5c0a",
             "filename": "document (2).pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\document (2).pdf",
-            "folder_guid": "958dc084-b0e6-4ce8-9e87-27610430dfb2",
+            "folder_guid": "7a241453-7256-4c69-861b-dc6427644bde",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 420098,
-            "processed_at": "2026-02-01T10:22:34.838506",
+            "processed_at": "2026-02-01T12:07:25.319306",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.838440",
+              "extracted_at": "2026-02-01T12:07:25.319238",
               "created": "2026-01-17T22:48:59.131235",
               "modified": "2025-10-11T23:57:57.614534",
               "accessed": "2026-01-18T15:58:30.839377",
@@ -419,17 +419,17 @@
             }
           },
           {
-            "file_guid": "ebc8eedb-f31e-4225-93ed-297f0d4c4d5b",
+            "file_guid": "5230d4d4-c8ab-4de9-89a5-24418c63a192",
             "filename": "dummy_statement.pdf",
             "filepath": "C:\\_sample\\tree_test\\20300123458\\app_files\\pdfs\\client02\\dummy_statement.pdf",
-            "folder_guid": "958dc084-b0e6-4ce8-9e87-27610430dfb2",
+            "folder_guid": "7a241453-7256-4c69-861b-dc6427644bde",
             "status": "completed",
             "file_type": "pdf",
             "file_size": 183623,
-            "processed_at": "2026-02-01T10:22:34.838716",
+            "processed_at": "2026-02-01T12:07:25.319492",
             "error_message": null,
             "metadata": {
-              "extracted_at": "2026-02-01T10:22:34.838624",
+              "extracted_at": "2026-02-01T12:07:25.319423",
               "created": "2026-01-17T22:48:59.140968",
               "modified": "2025-10-11T23:57:32.221820",
               "accessed": "2026-01-18T15:58:30.866377",
@@ -438,8 +438,8 @@
             }
           }
         ],
-        "started_at": "2026-02-01T10:22:34.838723",
-        "completed_at": "2026-02-01T10:22:34.838720"
+        "started_at": "2026-02-01T12:07:25.319499",
+        "completed_at": "2026-02-01T12:07:25.319496"
       }
     ]
   }

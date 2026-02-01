@@ -233,7 +233,7 @@ For more information, see README.md
 
     def _setup_folder_section(self, parent: ttk.Frame) -> None:
         """Setup folder selection section."""
-        folder_frame = ttk.LabelFrame(parent, text="Step 1: Select Parent Folder", padding="5")
+        folder_frame = ttk.LabelFrame(parent, text="Step 1: Select Parent Folder then Scan Folders", padding="5")
         folder_frame.grid(row=1, column=0, sticky="ew", pady=5)
         folder_frame.columnconfigure(1, weight=1)
 
