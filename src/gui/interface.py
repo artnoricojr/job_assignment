@@ -40,6 +40,9 @@ class FileProcessorGUI:
 
     def _setup_ui(self) -> None:
         """Setup the user interface."""
+        # Setup menu bar
+        self._setup_menu_bar()
+
         # Main container with padding
         main_frame = ttk.Frame(self.root, padding="10")
         main_frame.grid(row=0, column=0, sticky="nsew")
@@ -56,13 +59,13 @@ class FileProcessorGUI:
         )
         title_label.grid(row=0, column=0, pady=(0, 10))
 
-        # Folder selection section
+        # Step 1: Folder selection section
         self._setup_folder_section(main_frame)
 
-        # Folders list section
+        # Step 2: Folders list section
         self._setup_folders_list(main_frame)
 
-        # Action buttons
+        # Step 3: Action buttons
         self._setup_action_buttons(main_frame)
 
         # Log output section
@@ -71,9 +74,166 @@ class FileProcessorGUI:
         # Status bar
         self._setup_status_bar(main_frame)
 
+    def _setup_menu_bar(self) -> None:
+        """Setup the menu bar with File and Help menus."""
+        menubar = tk.Menu(self.root)
+        self.root.config(menu=menubar)
+
+        # File menu
+        file_menu = tk.Menu(menubar, tearoff=0)
+        menubar.add_cascade(label="File", menu=file_menu)
+        file_menu.add_command(label="Open Folder...", command=self._browse_folder, accelerator="Ctrl+O")
+        file_menu.add_command(label="Export Results...", command=self._export_results)
+        file_menu.add_separator()
+        file_menu.add_command(label="Clear All", command=self._clear_all)
+        file_menu.add_separator()
+        file_menu.add_command(label="Exit", command=self.root.quit, accelerator="Alt+F4")
+
+        # Help menu
+        help_menu = tk.Menu(menubar, tearoff=0)
+        menubar.add_cascade(label="Help", menu=help_menu)
+        help_menu.add_command(label="Quick Start Guide", command=self._show_quick_start)
+        help_menu.add_command(label="Supported File Types", command=self._show_supported_types)
+        help_menu.add_separator()
+        help_menu.add_command(label="About", command=self._show_about)
+
+        # Keyboard shortcuts
+        self.root.bind('<Control-o>', lambda e: self._browse_folder())
+
+    def _show_quick_start(self) -> None:
+        """Display the Quick Start Guide dialog."""
+        guide_text = """
+QUICK START GUIDE
+=================
+
+Follow these steps to process your files:
+
+STEP 1: SELECT A FOLDER
+-----------------------
+• Click "Browse..." to select a parent folder
+• Or type/paste the folder path directly
+• The folder should contain subfolders with files to process
+
+STEP 2: SCAN FOR FILES
+----------------------
+• Click "Scan Folders" to find all processable files
+• Review the list of discovered folders
+• Each folder is assigned a unique GUID for tracking
+• Check the file count for each folder
+
+STEP 3: PROCESS FILES
+---------------------
+• Click "Process Selected Folders" to begin
+• Confirm when prompted
+• Watch progress in the Processing Log panel
+• Each file receives its own GUID
+
+STEP 4: EXPORT RESULTS
+----------------------
+• Click "Export Results" to save to your chosen location
+• Choose JSON or CSV format
+• Results include folder GUIDs, file GUIDs, and metadata
+
+TIPS:
+• Check the Processing Log for detailed status
+• Errors are logged but won't stop processing
+• Use "Clear" to reset and start over
+"""
+        self._show_help_dialog("Quick Start Guide", guide_text)
+
+    def _show_supported_types(self) -> None:
+        """Display supported file types dialog."""
+        types_text = f"""
+SUPPORTED FILE TYPES
+====================
+
+Primary file type:
+• PDF (.pdf)
+
+Additional supported types:
+• Microsoft Word (.doc, .docx)
+• Microsoft Excel (.xls, .xlsx)
+• Text files (.txt)
+• CSV files (.csv)
+
+Current configuration:
+{', '.join(config.supported_extensions)}
+
+OUTPUT FORMATS
+==============
+
+• JSON - Full detailed results with metadata
+• CSV - Tabular format for spreadsheet analysis
+
+Both formats include:
+• Folder GUID and path
+• File GUID for each processed file
+• Processing status and timestamps
+• Error messages (if any)
+"""
+        self._show_help_dialog("Supported File Types", types_text)
+
+    def _show_about(self) -> None:
+        """Display the About dialog."""
+        about_text = """
+FILE PROCESSING APPLICATION
+===========================
+
+Version: 1.0
+
+A tool for recursively processing files
+within folder trees.
+
+Features:
+• GUI and CLI interfaces
+• Recursive folder scanning
+• GUID tracking for folders and files
+• JSON and CSV output
+• Detailed logging and error handling
+
+For more information, see README.md
+"""
+        self._show_help_dialog("About", about_text)
+
+    def _show_help_dialog(self, title: str, content: str) -> None:
+        """Display a help dialog with scrollable text."""
+        dialog = tk.Toplevel(self.root)
+        dialog.title(title)
+        dialog.geometry("500x450")
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        # Center the dialog
+        dialog.update_idletasks()
+        x = (dialog.winfo_screenwidth() // 2) - (500 // 2)
+        y = (dialog.winfo_screenheight() // 2) - (450 // 2)
+        dialog.geometry(f"+{x}+{y}")
+
+        # Text widget with scrollbar
+        text_frame = ttk.Frame(dialog, padding="10")
+        text_frame.pack(fill="both", expand=True)
+
+        text_widget = scrolledtext.ScrolledText(
+            text_frame,
+            wrap="word",
+            font=("Consolas", 10),
+            padx=10,
+            pady=10
+        )
+        text_widget.pack(fill="both", expand=True)
+        text_widget.insert("1.0", content.strip())
+        text_widget.config(state="disabled")
+
+        # Close button
+        close_btn = ttk.Button(dialog, text="Close", command=dialog.destroy)
+        close_btn.pack(pady=10)
+
+        # Focus the dialog
+        dialog.focus_set()
+
     def _setup_folder_section(self, parent: ttk.Frame) -> None:
         """Setup folder selection section."""
-        folder_frame = ttk.LabelFrame(parent, text="Select Parent Folder", padding="5")
+        folder_frame = ttk.LabelFrame(parent, text="Step 1: Select Parent Folder", padding="5")
         folder_frame.grid(row=1, column=0, sticky="ew", pady=5)
         folder_frame.columnconfigure(1, weight=1)
 
@@ -91,7 +251,7 @@ class FileProcessorGUI:
 
     def _setup_folders_list(self, parent: ttk.Frame) -> None:
         """Setup the folders list view."""
-        list_frame = ttk.LabelFrame(parent, text="Folders for Processing", padding="5")
+        list_frame = ttk.LabelFrame(parent, text="Step 2: Review Folders for Processing", padding="5")
         list_frame.grid(row=2, column=0, sticky="nsew", pady=5)
         list_frame.columnconfigure(0, weight=1)
         list_frame.rowconfigure(0, weight=1)
@@ -120,11 +280,14 @@ class FileProcessorGUI:
 
     def _setup_action_buttons(self, parent: ttk.Frame) -> None:
         """Setup action buttons."""
-        button_frame = ttk.Frame(parent)
-        button_frame.grid(row=3, column=0, pady=10)
+        button_frame = ttk.LabelFrame(parent, text="Step 3: Process and Export", padding="5")
+        button_frame.grid(row=3, column=0, pady=10, sticky="ew")
+
+        inner_frame = ttk.Frame(button_frame)
+        inner_frame.pack(pady=5)
 
         self.process_btn = ttk.Button(
-            button_frame,
+            inner_frame,
             text="Process Selected Folders",
             command=self._confirm_and_process,
             state="disabled"
@@ -132,19 +295,28 @@ class FileProcessorGUI:
         self.process_btn.grid(row=0, column=0, padx=5)
 
         self.clear_btn = ttk.Button(
-            button_frame,
+            inner_frame,
             text="Clear",
             command=self._clear_all
         )
         self.clear_btn.grid(row=0, column=1, padx=5)
 
         self.export_btn = ttk.Button(
-            button_frame,
+            inner_frame,
             text="Export Results",
             command=self._export_results,
             state="disabled"
         )
         self.export_btn.grid(row=0, column=2, padx=5)
+
+        # Help hint
+        hint_label = ttk.Label(
+            button_frame,
+            text="Tip: Use Help menu for Quick Start Guide",
+            font=("Helvetica", 8, "italic"),
+            foreground="gray"
+        )
+        hint_label.pack(pady=(0, 5))
 
     def _setup_log_section(self, parent: ttk.Frame) -> None:
         """Setup log output section."""
